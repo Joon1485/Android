@@ -27,3 +27,6 @@ public class MainActivity extends AppCompatActivity {
         btnSub = (Button) findViewById(R.id.btnSub);
         btnMul = (Button) findViewById(R.id.btnMul);
         btnDiv = (Button) findViewById(R.id.btnDiv);
+
+        edt1 = (EditText) findViewById(R.id.edt1);
+        edt2 = (EditText) findViewById(R.id.edt2);
