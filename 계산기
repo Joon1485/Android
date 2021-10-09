@@ -30,3 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         edt1 = (EditText) findViewById(R.id.edt1);
         edt2 = (EditText) findViewById(R.id.edt2);
+
+        tvResult = (TextView) findViewById(R.id.tvResult);
+
+        btnAdd.setOnTouchListener(new View.OnTouchListener() {
