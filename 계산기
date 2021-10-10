@@ -34,3 +34,7 @@ public class MainActivity extends AppCompatActivity {
         tvResult = (TextView) findViewById(R.id.tvResult);
 
         btnAdd.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int num1, num2;
+                num1 = Integer.parseInt(edt1.getText().toString());
