@@ -37,15 +37,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int num1, num2;
-        btnAdd.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                int num1, num2;
                 num1 = Integer.parseInt(edt1.getText().toString());
                 num2 = Integer.parseInt(edt2.getText().toString());
                 tvResult.setText("계산 결과 : " + (num1 + num2));
                 return false;
             }
         });
-        btnMul.setOnTouchListener(new View.OnTouchListener() {
+        btnSub.setOnTouchListener(new View.OnTouchListener() {
             @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int num1, num2;
