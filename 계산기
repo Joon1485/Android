@@ -65,3 +65,8 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+        btnDiv.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int num1, num2;
