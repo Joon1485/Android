@@ -12,7 +12,9 @@ xml_____________________________________________________________________________
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/edt1"
-
+        android:hint="숫자1"
+        android:layout_margin="10dp"
+        />
 
 
 java_____________________________________________________________________________________________________________________________
