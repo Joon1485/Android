@@ -23,6 +23,11 @@ xml_____________________________________________________________________________
         android:hint="숫자2"
         android:layout_margin="10dp"
         />
+    
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더하기"
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
