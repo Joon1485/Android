@@ -28,6 +28,10 @@ xml_____________________________________________________________________________
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="더하기"
+        android:layout_margin="10dp"
+        android:id="@+id/btnAdd"/>
+   
+
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
