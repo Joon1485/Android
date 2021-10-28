@@ -31,7 +31,11 @@ xml_____________________________________________________________________________
         android:layout_margin="10dp"
         android:id="@+id/btnAdd"/>
    
-
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="빼기"
+                
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
