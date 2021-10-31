@@ -42,6 +42,8 @@ xml_____________________________________________________________________________
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="곱하기"
+        android:layout_margin="10dp"
+        android:id="@+id/btnMul"/>
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
