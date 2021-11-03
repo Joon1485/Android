@@ -51,6 +51,9 @@ xml_____________________________________________________________________________
         android:text="나누기"
         android:layout_margin="10dp"
         android:id="@+id/btnDiv"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
