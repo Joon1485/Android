@@ -54,6 +54,8 @@ xml_____________________________________________________________________________
     
     <TextView
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="계산결과"
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
