@@ -56,6 +56,8 @@ xml_____________________________________________________________________________
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="계산결과"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
