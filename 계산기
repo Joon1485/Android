@@ -58,6 +58,10 @@ xml_____________________________________________________________________________
         android:text="계산결과"
         android:textColor="#FF0000"
         android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tvResult"/>
+
+</LinearLayout>
 java_____________________________________________________________________________________________________________________________
 package com.example.myapplication;
 
