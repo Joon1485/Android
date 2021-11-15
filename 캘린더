@@ -20,3 +20,7 @@ package com.example.myapplication;
     import com.example.myapplication.databinding.FragmentCustomDialogBinding;
 
     import java.util.Calendar;
+
+    public class CustomDialogFragment extends DialogFragment implements TimePicker.OnTimeChangedListener {
+
+    private FragmentCustomDialogBinding binding;
