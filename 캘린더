@@ -24,3 +24,8 @@ package com.example.myapplication;
     public class CustomDialogFragment extends DialogFragment implements TimePicker.OnTimeChangedListener {
 
     private FragmentCustomDialogBinding binding;
+
+    private int hour;
+    private int minute;
+
+    private DataViewModel viewModel;
