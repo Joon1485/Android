@@ -29,3 +29,6 @@ package com.example.myapplication;
     private int minute;
 
     private DataViewModel viewModel;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
