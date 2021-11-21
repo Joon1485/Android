@@ -32,5 +32,3 @@ package com.example.myapplication;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-
-{
