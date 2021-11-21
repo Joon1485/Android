@@ -32,3 +32,6 @@ package com.example.myapplication;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    Bundle savedInstanceState) {
+    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_custom_dialog, container, false);
+    viewModel =  new ViewModelProvider(requireActivity()).get(DataViewModel.class);
