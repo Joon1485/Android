@@ -35,3 +35,5 @@ package com.example.myapplication;
     Bundle savedInstanceState) {
     binding = DataBindingUtil.inflate(inflater, R.layout.fragment_custom_dialog, container, false);
     viewModel =  new ViewModelProvider(requireActivity()).get(DataViewModel.class);
+    return binding.getRoot();
+    }
