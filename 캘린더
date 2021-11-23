@@ -37,3 +37,7 @@ package com.example.myapplication;
     viewModel =  new ViewModelProvider(requireActivity()).get(DataViewModel.class);
     return binding.getRoot();
     }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+    super.onViewCreated(view, savedInstanceState);
