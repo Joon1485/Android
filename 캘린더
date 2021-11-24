@@ -41,3 +41,6 @@ package com.example.myapplication;
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
     super.onViewCreated(view, savedInstanceState);
+
+    binding.btnCancel.setOnClickListener(v -> {
+    dismiss();
