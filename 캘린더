@@ -45,3 +45,6 @@ package com.example.myapplication;
     binding.btnCancel.setOnClickListener(v -> {
     dismiss();
     }};
+
+    binding.btnConfirm.setOnClickListener(v -> {
+    viewModel.content.setValue(binding.editTextTextPersonName.getText().toString());
