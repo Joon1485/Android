@@ -48,3 +48,5 @@ package com.example.myapplication;
 
     binding.btnConfirm.setOnClickListener(v -> {
     viewModel.content.setValue(binding.editTextTextPersonName.getText().toString());
+    dismiss();
+    });
