@@ -50,3 +50,6 @@ package com.example.myapplication;
     viewModel.content.setValue(binding.editTextTextPersonName.getText().toString());
     dismiss();
     });
+
+    binding.timePicker1.setOnTimeChangedListener(this);
+    }
