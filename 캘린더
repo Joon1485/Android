@@ -53,3 +53,7 @@ package com.example.myapplication;
 
     binding.timePicker1.setOnTimeChangedListener(this);
     }
+
+    @Override
+    public void onTimeChanged(TimePicker timePicker, int i, int i1) {
+    hour = i;
