@@ -57,3 +57,5 @@ package com.example.myapplication;
     @Override
     public void onTimeChanged(TimePicker timePicker, int i, int i1) {
     hour = i;
+    minute = i1;
+    }
